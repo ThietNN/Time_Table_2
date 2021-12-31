@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time Table</title>
+</head>
+<body>
+<style>
+    table{
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    td, th {
+        padding: 20px;
+        border: 1px solid black;
+    }
+    .title{
+        color: blue;
+        text-align: center;
+    }
+.info{
+    display: flex;
+    justify-content: space-between;
+    color: dodgerblue;
+}
+.day{
+    background-color: yellow;
+    font-weight: bold;
+}
+.header{
+    background-color: orange;
+    font-weight: bold;
+}
+.time{
+    text-align: right;
+}
+
+</style>
+<h1 class="title">Thời khóa biểu</h1>
+<div class="info" >
+    <div>
+        <p>Lớp T0908I</p>
+        <p>Giáo viên: KhoaNV</p>
+        <p>Phòng học: Class 3/ Lab 3</p>
+    </div>
+
+    <div class="time" >
+        <p>Thời gian học: 13h30 - 17h30</p>
+        <p>Ngày học: Thứ 3, 5, 7</p>
+    </div>
+</div>
+
+<table>
+    <tr>
+        <td colspan="3"></td>
+        <td class="day">Thứ 3</td>
+        <td class="day">Thứ 5</td>
+        <td class="day">Thứ 7</td>
+    </tr>
+    <tr class="header" >
+        <td>Tuần</td>
+        <td>Ngày bắt đầu</td>
+        <td>Ngày kết thúc</td>
+        <td colspan="3">Môn học</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>01/09/2009</td>
+        <td>05/09/2009</td>
+        <td>CF - T1,L1</td>
+        <td>CF - T2,L2</td>
+        <td>CF - T3,L3</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>08/09/2009</td>
+        <td>12/09/2009</td>
+        <td>CF - T4,L4</td>
+        <td>CF - Written Test</td>
+        <td>C - T1,L1</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+    </tr>
+</table>
+</body>
+</html>
